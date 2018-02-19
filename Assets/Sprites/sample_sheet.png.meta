@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: b343e43e0181169479d9057f4f2162fb
-timeCreated: 1519025686
+timeCreated: 1519035058
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: mario_idle_top_left
+    21300000: mario_idle_1
     21300002: full_screen
+    21300004: mario_idle_2
+    21300006: mario_idle_3
+    21300008: mario_idle_4
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -24,7 +27,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -102,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mario_idle_top_left
+      name: mario_idle_1
       rect:
         serializedVersion: 2
         x: 80
@@ -124,7 +127,49 @@ TextureImporter:
         width: 256
         height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_idle_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 645
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_idle_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 637
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_idle_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 637
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
